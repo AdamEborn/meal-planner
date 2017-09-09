@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>Blank App</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <link rel="stylesheet" href="jquery.ui.datepicker.mobile.css" />
+  <script src="jQuery.ui.datepicker.js"></script>
+  <script src="jquery.ui.datepicker.mobile.js"></script>
+</head>
+
+<body>
+  <script type="text/javascript" src="cordova.js"></script>
+  <h3>Meal Planner</h3>
+  <div data-role="collapsible-set">
+
+    <div data-role="collapsible" data-collapsed="false">
+      <h3>Add A Meal</h3>
+      <form>
+        <label for="date">Select Date</label>
+        <input type="date" name="date" id="date" value=""  />
+        <label for="select-choice-0" class="select">Select Meal:</label>
+        <select name="select-choice-0" id="select-choice-0">
+          <option value="lunch">Lunch</option>
+          <option value="dinner">Dinner</option>
+        </select>
+      </form>
+
+    </div>
+
+    <div data-role="collapsible">
+      <h3>Section 2</h3>
+      <p>I'm the collapsibleset content for section 2.</p>
+    </div>
+
+  </div>
+</body>
+
+</html>
